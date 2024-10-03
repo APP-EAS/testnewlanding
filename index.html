@@ -92,13 +92,13 @@
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <div class="text-4xl font-bold text-indigo-600 mb-4">2</div>
-                    <h3 class="text-xl font-bold mb-2">Immediate Engagement</h3>
-                    <p>Within 2-3 minutes, InstantConnect initiates contact with the caller via SMS or voice call.</p>
+                    <h3 class="text-xl font-bold mb-2">Prompt Engagement</h3>
+                    <p>Within 2-3 minutes, InstantConnect initiates contact with the caller via SMS (Basic/AI) or answers calls directly (Voice).</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <div class="text-4xl font-bold text-indigo-600 mb-4">3</div>
                     <h3 class="text-xl font-bold mb-2">Lead Capture</h3>
-                    <p>InstantConnect captures lead information and notifies your team for timely follow-up.</p>
+                    <p>InstantConnect captures lead information and notifies your team for timely follow-up or handles the entire conversation (Voice).</p>
                 </div>
             </div>
         </div>
@@ -143,19 +143,25 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-4 px-6 border-b border-grey-light">Instant Response</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                        </tr>
-                        <tr>
-                            <td class="py-4 px-6 border-b border-grey-light">24/7 Availability</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                        </tr>
-                        <tr>
-                            <td class="py-4 px-6 border-b border-grey-light">AI-Powered Conversations</td>
+                            <td class="py-4 px-6 border-b border-grey-light">Prompt Response</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">24/7 Availability</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">Lead Qualification</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Basic</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">AI-Powered Conversations</td>
                         <td class="py-4 px-6 border-b border-grey-light">-</td>
                         <td class="py-4 px-6 border-b border-grey-light">✓</td>
                         <td class="py-4 px-6 border-b border-grey-light">✓</td>
@@ -167,22 +173,10 @@
                         <td class="py-4 px-6 border-b border-grey-light">✓</td>
                     </tr>
                     <tr>
-                        <td class="py-4 px-6 border-b border-grey-light">Lead Qualification</td>
-                        <td class="py-4 px-6 border-b border-grey-light">Basic</td>
-                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
-                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
-                    </tr>
-                    <tr>
                         <td class="py-4 px-6 border-b border-grey-light">Appointment Scheduling</td>
                         <td class="py-4 px-6 border-b border-grey-light">-</td>
                         <td class="py-4 px-6 border-b border-grey-light">✓</td>
                         <td class="py-4 px-6 border-b border-grey-light">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="py-4 px-6 border-b border-grey-light">Monthly Price</td>
-                        <td class="py-4 px-6 border-b border-grey-light">$297</td>
-                        <td class="py-4 px-6 border-b border-grey-light">$497</td>
-                        <td class="py-4 px-6 border-b border-grey-light">$997</td>
                     </tr>
                 </tbody>
             </table>
@@ -199,16 +193,16 @@
         <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
             <p class="mb-4">See how much additional revenue you could generate with InstantConnect:</p>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="client-value">
-                    Average Client Value:
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="client-value" type="number" placeholder="$">
-            </div>
-            <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="missed-calls">
                     Estimated Missed Calls per Week:
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="missed-calls" type="number" placeholder="#">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="avg-deal-value">
+                    Average Deal Value:
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="avg-deal-value" type="number" placeholder="$">
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="close-rate">
@@ -222,8 +216,7 @@
             <div id="roi-results" class="mt-4 hidden">
                 <h3 class="font-bold text-lg mb-2">Your Potential Growth:</h3>
                 <p>Additional Monthly Revenue: <span id="additional-revenue"></span></p>
-                <p>InstantConnect Investment: $297/month</p>
-                <p>Net Monthly Gain: <span id="net-gain"></span></p>
+                <p>Potential Annual Revenue Increase: <span id="annual-increase"></span></p>
                 <p>Return on Investment: <span id="roi-percentage"></span>%</p>
             </div>
         </div>
@@ -263,22 +256,21 @@
     }
 
     function calculateROI() {
-        const clientValue = parseFloat(document.getElementById('client-value').value);
         const missedCalls = parseFloat(document.getElementById('missed-calls').value);
+        const avgDealValue = parseFloat(document.getElementById('avg-deal-value').value);
         const closeRate = parseFloat(document.getElementById('close-rate').value) / 100;
 
-        if (isNaN(clientValue) || isNaN(missedCalls) || isNaN(closeRate)) {
+        if (isNaN(missedCalls) || isNaN(avgDealValue) || isNaN(closeRate)) {
             alert('Please enter valid numbers for all fields.');
             return;
         }
 
-        const potentialMonthlyRevenue = clientValue * missedCalls * 4 * closeRate * 1.5; // Assuming 4 weeks in a month and 50% improvement
-        const monthlyCost = 297;
-        const netGain = potentialMonthlyRevenue - monthlyCost;
-        const roi = ((netGain / monthlyCost) * 100).toFixed(2);
+        const potentialMonthlyRevenue = missedCalls * 4 * avgDealValue * closeRate * 1.5; // Assuming 4 weeks in a month and 50% improvement
+        const potentialAnnualRevenue = potentialMonthlyRevenue * 12;
+        const roi = ((potentialAnnualRevenue - (297 * 12)) / (297 * 12) * 100).toFixed(2);
 
         document.getElementById('additional-revenue').textContent = '$' + potentialMonthlyRevenue.toFixed(2);
-        document.getElementById('net-gain').textContent = '$' + netGain.toFixed(2);
+        document.getElementById('annual-increase').textContent = '$' + potentialAnnualRevenue.toFixed(2);
         document.getElementById('roi-percentage').textContent = roi;
         document.getElementById('roi-results').classList.remove('hidden');
     }
