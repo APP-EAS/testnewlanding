@@ -44,6 +44,9 @@
                         <a href="#benefits" class="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4">
                             Key Benefits
                         </a>
+                        <a href="#comparison" class="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4">
+                            Plan Comparison
+                        </a>
                         <a href="#roi-calculator" class="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4">
                             ROI Calculator
                         </a>
@@ -71,7 +74,7 @@
             <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">Experience InstantConnect Live</h2>
             <div class="bg-gray-100 rounded-lg shadow-lg p-8 text-center">
                 <p class="text-xl mb-6">Witness our 2-3 minute response time:</p>
-                <a href="tel:+14159188021" class="text-3xl font-bold text-indigo-600 hover:text-indigo-800 transition duration-300">+1 (833) 315-4088</a>
+                <a href="tel:+18333154088" class="text-3xl font-bold text-indigo-600 hover:text-indigo-800 transition duration-300">+1 (833) 315-4088</a>
                 <p class="mt-4 text-gray-700 mb-8">Call now, let it go to voicemail, and watch how quickly we engage!</p>
                 <a href="https://instantconnectai.eliteaisolutions.com/" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">Ready to Get Started?</a>
             </div>
@@ -90,12 +93,12 @@
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <div class="text-4xl font-bold text-indigo-600 mb-4">2</div>
                     <h3 class="text-xl font-bold mb-2">Immediate Engagement</h3>
-                    <p>Within 2-3 minutes, our AI initiates contact with the caller via SMS or voice call.</p>
+                    <p>Within 2-3 minutes, InstantConnect initiates contact with the caller via SMS or voice call.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <div class="text-4xl font-bold text-indigo-600 mb-4">3</div>
-                    <h3 class="text-xl font-bold mb-2">Lead Conversion</h3>
-                    <p>Our AI qualifies leads, schedules appointments, and seamlessly hands off to your team.</p>
+                    <h3 class="text-xl font-bold mb-2">Lead Capture</h3>
+                    <p>InstantConnect captures lead information and notifies your team for timely follow-up.</p>
                 </div>
             </div>
         </div>
@@ -125,95 +128,160 @@
         </div>
     </section>
 
-    <section class="bg-white py-20" id="roi-calculator">
+    <section class="bg-white py-20" id="comparison">
         <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16">
-            <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">Calculate Your Potential ROI</h2>
-            <div class="max-w-2xl mx-auto bg-gray-100 rounded-lg shadow-lg p-8">
-                <p class="mb-4">See how much additional revenue you could generate with InstantConnect:</p>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="client-value">
-                        Average Client Value:
-                    </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="client-value" type="number" placeholder="$">
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="missed-calls">
-                        Estimated Missed Calls per Week:
-                    </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="missed-calls" type="number" placeholder="#">
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="close-rate">
-                        Current Close Rate (%):
-                    </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="close-rate" type="number" placeholder="%">
-                </div>
-                <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="calculateROI()">
-                    See Your Potential Growth
-                </button>
-                <div id="roi-results" class="mt-4 hidden">
-                    <h3 class="font-bold text-lg mb-2">Your Potential Growth:</h3>
-                    <p>Additional Monthly Revenue: <span id="additional-revenue"></span></p>
-                    <p>InstantConnect Investment: $297/month</p>
-                    <p>Net Monthly Gain: <span id="net-gain"></span></p>
-                    <p>Return on Investment: <span id="roi-percentage"></span>%</p>
-                </div>
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">Choose the Right Plan for Your Business</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr>
+                            <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Feature</th>
+                            <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Basic</th>
+                            <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">AI</th>
+                            <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Voice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-grey-light">Instant Response</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-grey-light">24/7 Availability</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                            <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-grey-light">AI-Powered Conversations</td>
+                        <td class="py-4 px-6 border-b border-grey-light">-</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">Voice Call Handling</td>
+                        <td class="py-4 px-6 border-b border-grey-light">-</td>
+                        <td class="py-4 px-6 border-b border-grey-light">-</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">Lead Qualification</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Basic</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
+                        <td class="py-4 px-6 border-b border-grey-light">Advanced</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">Appointment Scheduling</td>
+                        <td class="py-4 px-6 border-b border-grey-light">-</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                        <td class="py-4 px-6 border-b border-grey-light">✓</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border-b border-grey-light">Monthly Price</td>
+                        <td class="py-4 px-6 border-b border-grey-light">$297</td>
+                        <td class="py-4 px-6 border-b border-grey-light">$497</td>
+                        <td class="py-4 px-6 border-b border-grey-light">$997</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center mt-8">
+            <a href="https://instantconnectai.eliteaisolutions.com/" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">Choose Your Plan</a>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray-100 py-20" id="roi-calculator">
+    <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">Calculate Your Potential ROI</h2>
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
+            <p class="mb-4">See how much additional revenue you could generate with InstantConnect:</p>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="client-value">
+                    Average Client Value:
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="client-value" type="number" placeholder="$">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="missed-calls">
+                    Estimated Missed Calls per Week:
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="missed-calls" type="number" placeholder="#">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="close-rate">
+                    Current Close Rate (%):
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="close-rate" type="number" placeholder="%">
+            </div>
+            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="calculateROI()">
+                See Your Potential Growth
+            </button>
+            <div id="roi-results" class="mt-4 hidden">
+                <h3 class="font-bold text-lg mb-2">Your Potential Growth:</h3>
+                <p>Additional Monthly Revenue: <span id="additional-revenue"></span></p>
+                <p>InstantConnect Investment: $297/month</p>
+                <p>Net Monthly Gain: <span id="net-gain"></span></p>
+                <p>Return on Investment: <span id="roi-percentage"></span>%</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="bg-indigo-900 text-white py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Stop Losing Business to Missed Calls</h2>
-                <p class="text-xl mb-8">Start converting missed opportunities into revenue today</p>
-                <a href="https://instantconnectai.eliteaisolutions.com/" class="inline-block bg-white text-indigo-800 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-indigo-100 transition duration-300 text-sm sm:text-base whitespace-nowrap">
-                    Get Started with InstantConnect
-                </a>
+<section class="bg-indigo-900 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Stop Losing Business to Missed Calls</h2>
+            <p class="text-xl mb-8">Start converting missed opportunities into revenue today</p>
+            <a href="https://instantconnectai.eliteaisolutions.com/" class="inline-block bg-white text-indigo-800 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-indigo-100 transition duration-300 text-sm sm:text-base whitespace-nowrap">
+                Get Started with InstantConnect
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-indigo-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16">
+        <div class="flex flex-wrap justify-between items-center">
+            <div class="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
+                <h3 class="text-lg font-bold mb-2">InstantConnect</h3>
+                <p class="text-sm mb-1">Turning missed calls into revenue opportunities.</p>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right mb-4 md:mb-0">
+                <p class="text-lg font-bold mb-2">Product of Elite AI Solutions</p>
+                <p class="text-sm mb-1">&copy; 2024 InstantConnect. All rights reserved.</p>
             </div>
         </div>
-    </section>
+    </div>
+</footer>
 
-    <footer class="bg-indigo-900 text-white py-8">
-        <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16">
-            <div class="flex flex-wrap justify-between items-center">
-                <div class="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
-                    <h3 class="text-lg font-bold mb-2">InstantConnect</h3>
-                    <p class="text-sm mb-1">Turning missed calls into revenue opportunities.</p>
-                </div>
-                <div class="w-full md:w-1/2 text-center md:text-right mb-4 md:mb-0">
-                    <p class="text-lg font-bold mb-2">Product of Elite AI Solutions</p>
-                    <p class="text-sm mb-1">&copy; 2024 InstantConnect. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<script>
+    document.getElementById('nav-toggle').onclick = function(){
+        document.getElementById("nav-content").classList.toggle("hidden");
+    }
 
-    <script>
-        document.getElementById('nav-toggle').onclick = function(){
-            document.getElementById("nav-content").classList.toggle("hidden");
+    function calculateROI() {
+        const clientValue = parseFloat(document.getElementById('client-value').value);
+        const missedCalls = parseFloat(document.getElementById('missed-calls').value);
+        const closeRate = parseFloat(document.getElementById('close-rate').value) / 100;
+
+        if (isNaN(clientValue) || isNaN(missedCalls) || isNaN(closeRate)) {
+            alert('Please enter valid numbers for all fields.');
+            return;
         }
 
-        function calculateROI() {
-            const clientValue = parseFloat(document.getElementById('client-value').value);
-            const missedCalls = parseFloat(document.getElementById('missed-calls').value);
-            const closeRate = parseFloat(document.getElementById('close-rate').value) / 100;
+        const potentialMonthlyRevenue = clientValue * missedCalls * 4 * closeRate * 1.5; // Assuming 4 weeks in a month and 50% improvement
+        const monthlyCost = 297;
+        const netGain = potentialMonthlyRevenue - monthlyCost;
+        const roi = ((netGain / monthlyCost) * 100).toFixed(2);
 
-            if (isNaN(clientValue) || isNaN(missedCalls) || isNaN(closeRate)) {
-                alert('Please enter valid numbers for all fields.');
-                return;
-            }
-
-            const potentialMonthlyRevenue = clientValue * missedCalls * 4 * closeRate * 1.5; // Assuming 4 weeks in a month and 50% improvement
-            const monthlyCost = 297;
-            const netGain = potentialMonthlyRevenue - monthlyCost;
-            const roi = ((netGain / monthlyCost) * 100).toFixed(2);
-
-            document.getElementById('additional-revenue').textContent = '$' + potentialMonthlyRevenue.toFixed(2);
-            document.getElementById('net-gain').textContent = '$' + netGain.toFixed(2);
-            document.getElementById('roi-percentage').textContent = roi;
-            document.getElementById('roi-results').classList.remove('hidden');
-        }
-    </script>
+        document.getElementById('additional-revenue').textContent = '$' + potentialMonthlyRevenue.toFixed(2);
+        document.getElementById('net-gain').textContent = '$' + netGain.toFixed(2);
+        document.getElementById('roi-percentage').textContent = roi;
+        document.getElementById('roi-results').classList.remove('hidden');
+    }
+</script>
 </body>
 </html>
